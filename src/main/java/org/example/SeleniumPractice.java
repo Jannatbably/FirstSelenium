@@ -21,8 +21,7 @@ public class SeleniumPractice {
         Thread.sleep(3000l);
         driver.findElement(By.xpath("//button[text()='Home']")).click();
 
-        //By creating css
-       // driver.findElement(By.cssSelector("")).click();
+
         
 
 

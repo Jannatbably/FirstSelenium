@@ -6,6 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.beans.PropertyChangeListener;
+
 public class SeleniumPracticeTwo {
 
     public static void main(String[] args) {
@@ -19,6 +23,12 @@ public class SeleniumPracticeTwo {
         //s.selectByValue("1");
         s.selectByVisibleText("Option 1");
         //s.selectByIndex();
+
+     //
+
+
+
+        }
 
 
 
@@ -43,4 +53,4 @@ public class SeleniumPracticeTwo {
 
 
 
-}
+
