@@ -31,6 +31,8 @@ public class SeleniumFirst {
         partiallinklist
         if there any like in we make a xpath by using text method://TageName[text()='value']
 
+        [css selector=#id,.class]
+
          */
 
          /*
