@@ -19,20 +19,27 @@ public class Homework {
     //driver.findElement(By.xpath("//div[@class='_2QfC02']")).click();
    driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();
     driver.findElement(By.xpath("//input[@class='_3704LK']")).sendKeys("iphone14");
-    Thread.sleep(3000l);
+    Thread.sleep(2000l);
 
-    List<WebElement> b =driver.findElements(By.xpath("//ul[@class='col-12-12 _1MRYA1 _38UFBk']"));
+
+        List<WebElement> b = driver.findElements(By.xpath("//div[contains(@class,'lrtEPN _17d0yO')]"));
     System.out.println(b.size());
     for(int i=0;i<b.size();i++){
         System.out.println(b.get(i).getText());
-       String Name = b.get(i).getText();
-       if(Name.equalsIgnoreCase("iphone14 cover")){
-           b.get(i).click();
+        if(b.get(i).getText().equalsIgnoreCase("iphone14 cover")){
+            b.get(i).click();
+            break;
+        }
 
-       }
 
     }
-    //driver.quit();
+
+
+
+
+
+
+    driver.quit();
 
 
 
