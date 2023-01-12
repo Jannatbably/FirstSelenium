@@ -28,7 +28,7 @@ public class Homework {
         System.out.println(b.get(i).getText());
         if(b.get(i).getText().equalsIgnoreCase("iphone14 cover")){
             b.get(i).click();
-            break;
+           // break;
         }
 
 
@@ -39,7 +39,7 @@ public class Homework {
 
 
 
-    driver.quit();
+   //driver.quit();
 
 
 
